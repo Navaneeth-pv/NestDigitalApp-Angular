@@ -19,6 +19,7 @@ import { AboutusComponent } from './aboutus/aboutus.component'
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { NewnavbarComponent } from './newnavbar/newnavbar.component';
+import { Newnavbar2Component } from './newnavbar2/newnavbar2.component';
 
 const myRoute:Routes=[
   {
@@ -83,7 +84,8 @@ const myRoute:Routes=[
     NavigationComponent,
     AboutusComponent,
     ContactusComponent,
-    NewnavbarComponent
+    NewnavbarComponent,
+    Newnavbar2Component
   ],
   imports: [
     BrowserModule,
