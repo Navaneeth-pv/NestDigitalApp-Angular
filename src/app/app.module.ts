@@ -11,6 +11,7 @@ import { ViewAllFriendsComponent } from './view-all-friends/view-all-friends.com
 import { AddCoursesComponent } from './add-courses/add-courses.component';
 import { AddFriendsComponent } from './add-friends/add-friends.component';
 import { RouterModule, Routes } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
 const myRoute:Routes=[
   {
@@ -58,7 +59,8 @@ const myRoute:Routes=[
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(myRoute)
+    RouterModule.forRoot(myRoute),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
