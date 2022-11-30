@@ -14,7 +14,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { NavigationComponent } from './navigation/navigation.component';
-import { HttpClientModule} from '@angular/common/http'
+import { HttpClientModule} from '@angular/common/http';
+import { AboutusComponent } from './aboutus/aboutus.component'
 
 const myRoute:Routes=[
   {
@@ -49,6 +50,10 @@ const myRoute:Routes=[
     path:"",
     component:HomeComponent
   },
+  {
+    path:"aboutus",
+    component:AboutusComponent
+  }
 ]
 
 
@@ -63,7 +68,8 @@ const myRoute:Routes=[
     AddCoursesComponent,
     AddFriendsComponent,
     HomeComponent,
-    NavigationComponent
+    NavigationComponent,
+    AboutusComponent
   ],
   imports: [
     BrowserModule,
