@@ -16,6 +16,7 @@ import { HomeComponent } from './home/home.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { HttpClientModule} from '@angular/common/http';
 import { AboutusComponent } from './aboutus/aboutus.component'
+import { GalleryComponent } from './gallery/gallery.component';
 
 const myRoute:Routes=[
   {
@@ -53,7 +54,16 @@ const myRoute:Routes=[
   {
     path:"aboutus",
     component:AboutusComponent
-  }
+  },
+  {
+    path:"gallery",
+    component:GalleryComponent
+  },
+  {
+    path:"contactus",
+   
+  },
+  
 ]
 
 
