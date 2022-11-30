@@ -7,6 +7,7 @@ import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { EmployeeLoginComponent } from './employee-login/employee-login.component';
 import { EmployeeRegistrationComponent } from './employee-registration/employee-registration.component';
 import { ViewAllCoursesComponent } from './view-all-courses/view-all-courses.component';
+import { ViewAllFriendsComponent } from './view-all-friends/view-all-friends.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ViewAllCoursesComponent } from './view-all-courses/view-all-courses.com
     AdminLoginComponent,
     EmployeeLoginComponent,
     EmployeeRegistrationComponent,
-    ViewAllCoursesComponent
+    ViewAllCoursesComponent,
+    ViewAllFriendsComponent
   ],
   imports: [
     BrowserModule,
