@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -10,6 +10,39 @@ import { ViewAllCoursesComponent } from './view-all-courses/view-all-courses.com
 import { ViewAllFriendsComponent } from './view-all-friends/view-all-friends.component';
 import { AddCoursesComponent } from './add-courses/add-courses.component';
 import { AddFriendsComponent } from './add-friends/add-friends.component';
+import { RouterModule, Routes } from '@angular/router';
+
+const myRoute:Routes=[
+  {
+    path:"addcourse",
+    component:AddCoursesComponent
+  },
+  {
+    path:"addfriends",
+    component:AddFriendsComponent
+  },
+  {
+    path:"adminlogin",
+    component:AdminLoginComponent
+  },
+  {
+    path:"emoloyeelogin",
+    component:EmployeeLoginComponent
+  },
+  {
+    path:"employeeregistration",
+    component:EmployeeRegistrationComponent
+  },
+  {
+    path:"viewallcourses",
+    component:ViewAllCoursesComponent
+  },
+  {
+    path:"viewallfriends",
+    component:ViewAllFriendsComponent
+  }
+]
+
 
 @NgModule({
   declarations: [
@@ -24,7 +57,8 @@ import { AddFriendsComponent } from './add-friends/add-friends.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(myRoute)
   ],
   providers: [],
   bootstrap: [AppComponent]
