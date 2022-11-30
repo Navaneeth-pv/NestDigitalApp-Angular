@@ -30,7 +30,7 @@ const myRoute:Routes=[
     component:AdminLoginComponent
   },
   {
-    path:"emoloyeelogin",
+    path:"employeelogin",
     component:EmployeeLoginComponent
   },
   {
@@ -46,9 +46,9 @@ const myRoute:Routes=[
     component:ViewAllFriendsComponent
   },
   {
-    path:"home",
+    path:"",
     component:HomeComponent
-  }
+  },
 ]
 
 
