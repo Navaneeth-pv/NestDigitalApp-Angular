@@ -9,6 +9,7 @@ import { EmployeeRegistrationComponent } from './employee-registration/employee-
 import { ViewAllCoursesComponent } from './view-all-courses/view-all-courses.component';
 import { ViewAllFriendsComponent } from './view-all-friends/view-all-friends.component';
 import { AddCoursesComponent } from './add-courses/add-courses.component';
+import { AddFriendsComponent } from './add-friends/add-friends.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AddCoursesComponent } from './add-courses/add-courses.component';
     EmployeeRegistrationComponent,
     ViewAllCoursesComponent,
     ViewAllFriendsComponent,
-    AddCoursesComponent
+    AddCoursesComponent,
+    AddFriendsComponent
   ],
   imports: [
     BrowserModule,
