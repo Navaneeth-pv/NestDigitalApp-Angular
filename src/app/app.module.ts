@@ -64,6 +64,7 @@ const myRoute:Routes=[
   },
   {
     path:"contactus",
+    component:ContactusComponent
    
   },
   
@@ -85,7 +86,8 @@ const myRoute:Routes=[
     AboutusComponent,
     ContactusComponent,
     NewnavbarComponent,
-    Newnavbar2Component
+    Newnavbar2Component,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
