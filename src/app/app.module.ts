@@ -18,6 +18,7 @@ import { HttpClientModule} from '@angular/common/http';
 import { AboutusComponent } from './aboutus/aboutus.component'
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { NewnavbarComponent } from './newnavbar/newnavbar.component';
 
 const myRoute:Routes=[
   {
@@ -81,7 +82,8 @@ const myRoute:Routes=[
     HomeComponent,
     NavigationComponent,
     AboutusComponent,
-    ContactusComponent
+    ContactusComponent,
+    NewnavbarComponent
   ],
   imports: [
     BrowserModule,
