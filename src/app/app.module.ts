@@ -13,6 +13,7 @@ import { AddFriendsComponent } from './add-friends/add-friends.component';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
+import { NavigationComponent } from './navigation/navigation.component';
 
 const myRoute:Routes=[
   {
@@ -42,6 +43,10 @@ const myRoute:Routes=[
   {
     path:"viewallfriends",
     component:ViewAllFriendsComponent
+  },
+  {
+    path:"home",
+    component:HomeComponent
   }
 ]
 
@@ -56,7 +61,8 @@ const myRoute:Routes=[
     ViewAllFriendsComponent,
     AddCoursesComponent,
     AddFriendsComponent,
-    HomeComponent
+    HomeComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
