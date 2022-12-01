@@ -12,12 +12,15 @@ export class ViewAllFriendsComponent {
 
     api.fetchFriends().subscribe(
 
-      (Response)=>{
-        this.data=Response;
+      (response)=>{
+        this.loading=false
+        console.log(response)
+        this.data=response;
       }
     )
   }
 
   data:any=[]
+  loading:boolean=true
 
 }
