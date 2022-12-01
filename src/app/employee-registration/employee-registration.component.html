@@ -1,4 +1,4 @@
-<div class="container">
+<div class="bg-image" style="background-image: url(https://media.istockphoto.com/id/1288516709/video/4k-abstract-background-loopable.jpg?s=640x640&k=20&c=yCWvzZeTmXPS86ib9jqbM4uSvaCia2wd7Pxry72MsBE=)"class="container">
     <div class="row">
         <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center">
 
@@ -76,11 +76,11 @@
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="" class="form-label">Password</label>
-                    <input type="password" name="" id="" class="form-control">
+                    <input name="password" [(ngModel)]="password" type="password" name="" id="" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <label for="" class="form-label">Conform Password</label>
-                    <input type="password" name="" id="" class="form-control">
+                    <label for="" class="form-label">Confirm Password</label>
+                    <input name="confirmpassword" [(ngModel)]="confirmpassword" type="password" name="" id="" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <button (click)="readempreg()" class="btn btn-success">Register</button>

@@ -25,7 +25,7 @@ export class EmployeeRegistrationComponent {
     if (this.password==this.confirmpassword) {
 
       this.router.navigate(['/employeelogin'])
-      alert("valid password")
+      alert("Successfully Registered!!!")
       
     } else {
       alert("invalid password")
