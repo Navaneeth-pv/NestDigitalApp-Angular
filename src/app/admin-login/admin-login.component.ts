@@ -26,10 +26,9 @@ export class AdminLoginComponent {
     if (this.username=="admin" && this.password=="nestdigital") {
 
       this.router.navigate(['/viewallcourses'])
-      alert("valid login")
       
     } else {
-      alert("invalid login")
+      alert("invalid login!!!")
       
     }
   }

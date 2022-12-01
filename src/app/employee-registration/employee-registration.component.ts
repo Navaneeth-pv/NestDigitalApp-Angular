@@ -7,6 +7,11 @@ import { Route, Router } from '@angular/router';
   styleUrls: ['./employee-registration.component.css']
 })
 export class EmployeeRegistrationComponent {
+  employeeid=""
+  firstname=""
+  lastname=""
+  houseno=""
+  housename=""
   password=""
   confirmpassword=""
 

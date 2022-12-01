@@ -25,7 +25,6 @@ export class EmployeeLoginComponent {
     if (this.empid=="1122" && this.password=="12345") {
 
       this.router.navigate(['/addcourse'])
-      alert("valid login")
       
     } else {
       alert("invalid login")
